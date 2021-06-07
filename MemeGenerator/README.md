@@ -63,7 +63,7 @@ Child of the ABC IngestorInterface.py used as a strategy object to parce .txt fi
 ### PDFIngestor.py
 Child of the ABC IngestorInterface.py used as a strategy object to parce .pdf files. Requires import subprocess, os, random and list from typing, as well as pdftotext (see above under installation). Returns a list of QuoteModel objects.
 
-###Ingestor.py
+### Ingestor.py
 Child of the ABC IngestorInterface.py, contains Ingestor class to determine which ingestor to use for specific file. Returns a list of QuoteModel objects.
 
 
